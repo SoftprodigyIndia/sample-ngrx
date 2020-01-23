@@ -1,0 +1,11 @@
+<p>product-details works!</p>
+<ngx-smart-modal #popupOne [identifier]="'popupOne'">
+    <h1>Title 1 dfsdf</h1>
+    <p>Hello</p>
+    <button (click)="popupOne.close()">Close</button>
+</ngx-smart-modal>
+
+<button (click)="ngxSmartModalService.getModal('popupOne').open()">Open Modal </button> 
+
+
+
